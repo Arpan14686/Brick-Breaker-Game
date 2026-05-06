@@ -1,0 +1,42 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#game {
+  width: 400px;
+  height: 500px;
+  background: #222;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+.paddle {
+  width: 80px;
+  height: 10px;
+  background: #0f0;
+  position: absolute;
+  bottom: 10px;
+  left: 160px;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+
+.brick {
+  width: 50px;
+  height: 20px;
+  background: orange;
+  position: absolute;
+  border: 1px solid #000;
+}
